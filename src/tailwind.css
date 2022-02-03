@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-  h1,
-  button {
+  h1 {
     font-family: "Oswald", sans-serif;
+    font-size: 2.3rem;
   }
 
   h2 {
@@ -19,14 +19,21 @@
     padding-bottom: 0.5rem;
   }
 
+  h4,
+  li {
+    font-weight: 800;
+  }
+
+  h4,
   p,
-  li,
-  h4 {
+  li {
     font-family: "Montserrat", sans-serif;
     line-height: 1.75rem;
     font-size: 1rem;
   }
-  h4 {
-    font-weight: 800;
+
+  button {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.1rem;
   }
 }
