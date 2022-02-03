@@ -5,33 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Københavnerbilleder</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="tailwind.css" />
   </head>
-  <body class="dark:bg-gray-900 dark:text-gray-100">
+
+  <body class="dark:bg-gray-900 dark:text-gray-300">
     <!-- Add prose -->
-    <main class="lg:pl-10 lg:pr-10">
+    <main class="pl-4 pr-4 lg:ml-40 lg:mr-40 lg:pr-10 lg:pl-10">
       <!-- hero unit -->
 
-      <section class="lg:grid lg:grid-cols-2 lg:grid-rows-1 lg:mr-40 lg:ml-40 lg:mt-20">
+      <section
+        class="lg:mr-40 lg:ml-40 lg:mt-20 lg:grid lg:grid-cols-2 lg:grid-rows-1"
+      >
         <div class="lg:place-center lg:mt-20">
           <h1 class="mt-10 text-5xl dark:text-gray-300 lg:pr-4">
             Københavnerbilleder - en guide til hipster foto
           </h1>
           <h3 class="mt-4 text-xl dark:text-gray-300">af Sten Simons</h3>
-          <div class="lg:pt-10">
-          <button
-            class=" bg-primary pl-10 pr-10 pt-2 pb-2 text-white dark:bg-white dark:text-black hover:bg-yellow-300 hover:text-black"
-          >
-            KØB BOGEN
-          </button>
+          <div>
+            <button
+              class="bg-primary text-secondary hover:bg-third hover:text-primary dark:bg-secondary dark:text-primary pl-10 pr-10 pt-2 pb-2"
+            >
+              KØB BOGEN
+            </button>
+          </div>
         </div>
-        </div>
-        <div class="m-4 lg:-m-0">
+        <div class="lg:-m-0">
           <img
-            src="img/orestad-til-islands-brygge-pentax-auto-110-14.jpg?as=webp"
+            src="img/kbh-by-night-3.jpg?as=webp&width=1000"
             alt="Billede af København om natten"
           />
         </div>
@@ -40,11 +46,11 @@
       <!-- stamdata  om bogen og info -->
 
       <section
-        class="m-4 pt-5 lg:mt-20 lg:mr-40 lg:ml-40 lg:grid lg:grid-cols-2 lg:bg-black lg:text-white"
+        class="pt-10 pb-10 lg:grid lg:grid-cols-2 lg:bg-black lg:text-white"
       >
-        <div class="place-content-center">
-          <ul class="dark:text-gray-300 lg:m-4 lg:ml-10 ">
-            <li class="font-semibold">
+        <div>
+          <ul class="dark:text-gray-300 lg:ml-10">
+            <li class="font-bold">
               Titel:<span class="font-light">
                 Københavnerbilleder - en guide til hipster foto
               </span>
@@ -66,7 +72,7 @@
             </li>
           </ul>
         </div>
-        <div class="mt-4 dark:text-gray-300 lg:m-4 lg:mr-10">
+        <div class="mt-4 dark:text-gray-300 lg:mr-10">
           <p>
             Københavnerbilleder er de danske streetfotografers bibel: Det er en
             fusion mellem et kunstværk og en lærebog. Bogen gennemgår alle
@@ -79,33 +85,30 @@
 
       <!-- 3 billeder -->
 
-      <section class="m-4 space-y-2 lg:mt-20 lg:mr-40 lg:ml-40 lg:grid lg:grid-cols-3 lg:gap-2 ">
+      <section class="space-y-4 lg:grid lg:grid-cols-3 lg:gap-2">
         <img
-          src="img/kobenhavnerbilleder-sten-simons.jpg"
+          src="img/kobenhavnerbilleder-sten-simons.jpg?as=webp&width=800"
           alt="Billede af en bog"
         />
         <img
-          src="img/kobenhavnerbilleder_oppefra.jpg"
+          src="img/kobenhavnerbilleder_oppefra.jpg?as=webp&width=800"
           alt="Billede af en bog"
         />
         <img
-          src="img/kobenhavnerbilleder_aaben_venstre.jpg"
+          src="img/kobenhavnerbilleder_aaben_venstre.jpg?as=webp&width=800"
           alt="Billede af en bog"
         />
       </section>
 
-        <!-- intro til kapitlerne - overskrift -->
-        <h2 class="m-4 pt-10 pb-4 text-3xl dark:text-gray-300 lg:mr-40 lg:ml-40">
-          Oversigt over kapitlerne
-        </h2>
+      <!-- intro til kapitlerne - overskrift -->
+      <h2 class="pt-10 pb-6 dark:text-gray-300">Oversigt over kapitlerne</h2>
 
       <!-- intro til kapitlerne -->
 
-      <section class="m-4 dark:text-gray-300 lg:ml-40 lg:mr-40 lg:grid lg:grid-cols-2 lg:gap-10">
-        
-          <div>
-          <div class="dark:text-gray-300 pb-5">
-            <h3 class="font-semibold">Kapitel 1: Intro til street foto</h3>
+      <section class="dark:text-gray-300 lg:grid lg:grid-cols-2 lg:gap-10">
+        <div>
+          <div class="pb-5 dark:text-gray-300">
+            <h3>Kapitel 1: Intro til street foto</h3>
             <p>
               Hvad er street foto? Det handler i bund og grund om at skyde byens
               liv og byens geometri (urban geometry). I dette kapitel får du en
@@ -113,10 +116,10 @@
               de kendte street-fotografer. Alt krydret med en masse gode
               eksempler på street fotos.
             </p>
-        </div>
+          </div>
 
-          <div class="dark:text-gray-300 pb-5">
-            <h3 class="font-semibold">Kapitel 2 - Om at skyde street</h3>
+          <div class="pb-5 dark:text-gray-300">
+            <h3>Kapitel 2 - Om at skyde street</h3>
             <p>
               Vil du skyde street? Så er der ikke nogen vej udenom: Du skal ud
               på gaderne og prøve det! I dette kapitel får du en teknisk
@@ -125,21 +128,18 @@
               tricks til street-skyderiet.
             </p>
           </div>
-  
-       
-          <div class="dark:text-gray-300 pb-5">
-            <h3 class="font-semibold">
-              Kapitel 3 - Om at finde det rette motiv
-            </h3>
+
+          <div class="pb-5 dark:text-gray-300">
+            <h3>Kapitel 3 - Om at finde det rette motiv</h3>
             <p>
               Indimellem er man heldig, andre gange kommer man hjem helt uden
               gode motiver. Med et par tips og tricks til at finde de rette
               motiver, stiger chancen gevaldigt for at fange de gode motiver.
             </p>
           </div>
-     
-          <div class="dark:text-gray-300 pb-5">
-            <h3 class="font-semibold">Kapitel 4 - Digital street foto</h3>
+
+          <div class="pb-5 dark:text-gray-300">
+            <h3>Kapitel 4 - Digital street foto</h3>
             <p>
               De fleste af os skyder oftest digitalt fordi det er billigere og
               nemmere. Og nogen teknikker og fremgangsmåder egner sig kun til
@@ -147,13 +147,11 @@
               tricks til digital street-foto.
             </p>
           </div>
-   
-      </div>
-      
-   
+        </div>
+
         <div>
-          <div class="dark:text-gray-300 pb-5">
-            <h3 class="font-semibold">Kapitel 5 - Analog street foto</h3>
+          <div class="pb-5 dark:text-gray-300">
+            <h3>Kapitel 5 - Analog street foto</h3>
             <p>
               Analog er sejt fordi det er mere “ægte,” dyrere og mere besværligt
               end digital. Det signalerer entusiasme. Nogle teknikker og
@@ -161,10 +159,9 @@
               kapitel får du en række tips og tricks til analog street-foto.
             </p>
           </div>
-  
-        
-          <div class="dark:text-gray-300 pb-5">
-            <h3 class="font-semibold">Kapitel 6 - Om at skyde sort/hvid</h3>
+
+          <div class="pb-5 dark:text-gray-300">
+            <h3>Kapitel 6 - Om at skyde sort/hvid</h3>
             <p>
               Alle street-fotografer skyder sort/hvid nu og da. Nogen altid.
               Hvorfor? Hvad er der specielt ved sort/hvid fotografering, og hvad
@@ -173,123 +170,115 @@
             </p>
           </div>
 
-       
-          <div class="dark:text-gray-300 pb-5">
-            <h3 class="font-semibold">Kapitel 7 - Kreative teknikker </h3>
-            Dobbelteksponeringer, ICM (intentional camera moves), smadrede objektiver, gamle filmruller og alle mulige andre, spændende kreative teknikker kan løfte dine fotografier fra at være kedelige dokumentationer af hverdagen til at blive vilde kunststykker. Så dyk ned i dette kapitel om eksperimenterende teknikker!
-            </p>
-          </div>
-        
-       
-          <div class="dark:text-gray-300 pb-5">
-            <h3 class="font-semibold">Kapitel 8 - Kom helt tæt på!</h3>
+          <div class="pb-5 dark:text-gray-300">
+            <h3>Kapitel 7 - Kreative teknikker</h3>
             <p>
-              Street foto handler om at fotografere livet på gaden - men tør du at gå helt tæt på fremmede mennesker og knipse løs? Du kan lige så godt øve dig, for det er det der vil gøre dig til en bedre street-fotograf…
+              Dobbelteksponeringer, ICM (intentional camera moves), smadrede
+              objektiver, gamle filmruller og alle mulige andre, spændende
+              kreative teknikker kan løfte dine fotografier fra at være kedelige
+              dokumentationer af hverdagen til at blive vilde kunststykker. Så
+              dyk ned i dette kapitel om eksperimenterende teknikker!
             </p>
           </div>
-        
-      </div>
 
-        <p class="pb-10 pt-4">
+          <div class="pb-5 dark:text-gray-300">
+            <h3>Kapitel 8 - Kom helt tæt på!</h3>
+            <p>
+              Street foto handler om at fotografere livet på gaden - men tør du
+              at gå helt tæt på fremmede mennesker og knipse løs? Du kan lige så
+              godt øve dig, for det er det der vil gøre dig til en bedre
+              street-fotograf…
+            </p>
+          </div>
+        </div>
+
+        <p class="pb-10">
           Du kan downloade et kapitel
-          <a class="dark:text-gray-300" href="#0">her</a> og se det an.
+          <a class="text-fourth dark:text-gray-300" href="#0">her</a> og se det
+          an.
         </p>
       </section>
 
       <!-- personer siger dette -->
 
-      <section
-        class="m-4 border-2 border-solid border-black dark:border-white lg:mr-40 lg:ml-40 lg:mt-20 "
-      >
-        <!-- personer siger dette - overskrift -->
-        <h2 class="m-4 text-2xl dark:text-gray-300">Anmeldelser af bogen</h2>
-        <div class="m-4">
-          <h3 class="text-xl dark:text-gray-300">5 af 6 stjerner</h3>
-          <p class="pt-2 dark:text-gray-300">
-            "Københavnerbilleder er en grundig introduktion til at skyde
-            billeder med retro-kant. Hvad enten du er har arbejdet med foto
-            siden 135-filmen kom på markedet, du kun har skudt digitalt eller er
-            helt nybegynder, er der masser af tips og tricks i bogen."
-          </p>
-          <h4 class="pt-2 pb-4 font-semibold dark:text-gray-300">
-            - Hanne Hovgaard, Berlingeren
-          </h4>
-        </div>
+      <section class="border-2 border-solid border-black dark:border-white">
+        <div class="p-4">
+          <!-- personer siger dette - overskrift -->
+          <h2 class="dark:text-gray-300">Anmeldelser af bogen</h2>
 
-        <div class="m-4">
-          <h3 class="text-xl dark:text-gray-300">4 af 5 stjerner</h3>
-          <p class="pt-2 dark:text-gray-300">
-            "Teksten er underholdende, og billederne er sku’ flotte. Hvad mere
-            skal man sige om en fotobog?"
-          </p>
-          <h4 class="pt-2 pb-4 font-semibold dark:text-gray-300">
-            - Kim Kloggaard, Fotojournalen.dk
-          </h4>
-        </div>
+          <div>
+            <h3 class="pt-6 dark:text-gray-300">5 af 6 stjerner</h3>
+            <p class="dark:text-gray-300">
+              "Københavnerbilleder er en grundig introduktion til at skyde
+              billeder med retro-kant. Hvad enten du er har arbejdet med foto
+              siden 135-filmen kom på markedet, du kun har skudt digitalt eller
+              er helt nybegynder, er der masser af tips og tricks i bogen."
+            </p>
+            <h4 class="pt-2 pb-6 dark:text-gray-300">
+              - Hanne Hovgaard, Berlingeren
+            </h4>
+          </div>
 
-        <div class="m-4">
-          <h3 class="text-xl dark:text-gray-300">6 af 6 stjerner</h3>
-          <p class="pt-2 dark:text-gray-300">
-            "Sten Simons kan det der - og han bliver bedre og bedre. Stens
-            tredje fotobog er klart den bedste - her er han for alvor i sit
-            rette element, meget bedre end “studiefotografering som begyndere.”
-            Tillykke - godt arbejde."
-          </p>
-          <h4 class="pt-2 pb-4 font-semibold dark:text-gray-300">
-            - Volmer Hansen, Lukkertiden.dk
-          </h4>
+          <div>
+            <h3 class="dark:text-gray-300">4 af 5 stjerner</h3>
+            <p class="dark:text-gray-300">
+              "Teksten er underholdende, og billederne er sku’ flotte. Hvad mere
+              skal man sige om en fotobog?"
+            </p>
+            <h4 class="pt-2 pb-6 dark:text-gray-300">
+              - Kim Kloggaard, Fotojournalen.dk
+            </h4>
+          </div>
+
+          <div>
+            <h3 class="dark:text-gray-300">6 af 6 stjerner</h3>
+            <p class="dark:text-gray-300">
+              "Sten Simons kan det der - og han bliver bedre og bedre. Stens
+              tredje fotobog er klart den bedste - her er han for alvor i sit
+              rette element, meget bedre end “studiefotografering som
+              begyndere.” Tillykke - godt arbejde."
+            </p>
+            <h4 class="pt-2 pb-6 dark:text-gray-300">
+              - Volmer Hansen, Lukkertiden.dk
+            </h4>
+          </div>
         </div>
       </section>
 
-      <h2 class="m-4 pt-10 pb-4 text-2xl dark:text-gray-300 lg:mr-40 lg:ml-40 lg:mt-10 ">Billedegalleri</h2>
+      <h2 class="pt-10 pb-6 dark:text-gray-300">Billedegalleri</h2>
 
       <!-- galleri -->
 
       <section
-        class="not-prose m-4 mb-0 mt-0 grid grid-cols-3 grid-rows-1 gap-1 pb-10 lg:ml-40 lg:mr-40 "
+        class="space-y-4 pb-10 md:grid md:grid-cols-2 md:grid-rows-1 md:gap-1 lg:grid lg:grid-cols-2 lg:grid-rows-1 lg:gap-1"
       >
-        <img
-          src="img/foraar-med-et-agfa-le-box-2021-17.jpg"
-          alt="Billede af natur"
-        />
-        <img src="img/lomo-smena-17.jpg" alt="Billede" />
-        <img
-          src="img/orestad-til-islands-brygge-pentax-auto-110-14.jpg"
-          alt="Billede"
-        />
+        <img src="img/1.jpg?as=webp&width=800" alt="Billede" />
 
-        <img
-          src="img/orestad-til-islands-brygge-pentax-auto-110-17.jpg"
-          alt="Billede"
-        />
-        <img
-          src="img/orestad-til-islands-brygge-pentax-auto-110-24.jpg"
-          alt="Billede"
-        />
-        <img
-          src="img/orestad-til-islands-brygge-pentax-auto-110.jpg"
-          alt="Billede"
-        />
-        <img
-          src="img/orestad-til-islands-brygge-pentax-auto-110-16.jpg"
-          alt="Billede"
-        />
-        <img src="img/pinhole-objektiver-ved-eghjorten-3.jpg" alt="Billede" />
-        <img
-          src="img/orestad-til-islands-brygge-pentax-auto-110-16.jpg"
-          alt="Billede"
-        />
+        <img src="img/2.jpg?as=webp&width=800" alt="Billede" />
 
+        <img src="img/3.jpg?as=webp&width=800" alt="Billede" />
+
+        <img src="img/4.jpg?as=webp&width=800" alt="Billede" />
+
+        <img src="img/5.jpg?as=webp&width=800" alt="Billede" />
+
+        <img src="img/6.jpg?as=webp&width=800" alt="Billede" />
+
+        <img src="img/7.jpg?as=webp&width=800" alt="Billede" />
+
+        <img src="img/8.jpg?as=webp&width=800" alt="Billede" />
+
+        <img src="img/9.jpg?as=webp&width=800" alt="Billede" />
       </section>
 
       <!-- forfatteren - overskrift -->
 
-      <h2 class="m-4 text-2xl dark:text-gray-300 lg:mr-40 lg:ml-40 lg:mb-20 ">Hvem er forfatteren?</h2>
+      <h2 class="pb-6 dark:text-gray-300">Hvem er forfatteren?</h2>
 
       <!-- forfatteren - billede og biograftekst -->
 
-      <section class="m-4 lg:mr-40 lg:ml-40 lg:grid lg:grid-cols-2 lg:grid-rows-1 ">
-        <p class="mb-4 dark:text-gray-300">
+      <section class="lg:grid lg:grid-cols-2 lg:grid-rows-1">
+        <p class="mb-6 dark:text-gray-300">
           Sten Simons har en lang foto-karriere bag sig. Det hele startede i
           00’erne, da han gik rundt i Pisserenden for at fotografere ungdommens
           forfald. Det ledte til en række udstillinger, og blev senere til hans
@@ -300,17 +289,21 @@
           af bøger, herunder bestsellerne Scener fra S-toget, Brun mad - en
           visuel odysse, og lærebogen Fotografering for evnesvage.
         </p>
-        <img class="lg:h-[640px]" src="img/sten_simons.jpg" alt="Billede" />
+        <img
+          class="lg:h-[640px]"
+          src="img/sten_simons.jpg?as=webp&width=800"
+          alt="Billede"
+        />
       </section>
 
-      <!-- køb-->
-      <div class="m-4">
-        <h2 class="pb-4 text-center text-2xl dark:text-gray-300">
+      <!-- KØB BOGEN-->
+      <div class="pt-10">
+        <h3 class="pb-5 text-center dark:text-gray-300">
           Køb Københavnerbilleder nu!
-        </h2>
+        </h3>
         <div class="pb-10 text-center">
           <button
-            class="bg-black pl-10 pr-10 pt-2 pb-2 text-white dark:bg-white dark:text-black hover:bg-yellow-300 hover:text-black"
+            class="bg-primary text-secondary hover:bg-third hover:text-primary dark:bg-secondary dark:text-primary pl-10 pr-10 pt-2 pb-2"
           >
             KØB BOGEN
           </button>
@@ -318,17 +311,14 @@
       </div>
 
       <!-- afslutning med footer -->
-      <footer
-        class="bg-black pt-1 pb-1 text-white dark:bg-white dark:text-black lg:-pl- lg:-pr-0"
-      >
+      <footer class="dark:text-secondary text-primary">
         <div class="text-center">
-          <p class="m-4">Katja Kurz Levring 2022</p>
+          <p class="">Katja Kurz Levring 2022</p>
         </div>
       </footer>
 
       <!-- prose færdig -->
     </main>
-  
 
     <script type="module" src="index.js"></script>
   </body>

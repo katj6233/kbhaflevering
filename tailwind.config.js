@@ -5,6 +5,7 @@ module.exports = {
       primary: "#000000",
       secondary: "#ffffff",
       third: "#F6FF10",
+      fourth: "#0031FF",
     },
 
     fontFamily: {
