@@ -16,22 +16,26 @@
 
   <body class="dark:bg-fifth dark:text-secondary">
     <!-- Add prose -->
-    <main class="pl-4 pr-4 lg:ml-40 lg:mr-40 lg:pr-10 lg:pl-10">
+    <main
+      class="pl-4 pr-4 sm:pr-10 sm:pl-10 md:pl-12 md:pr-12 lg:ml-20 lg:mr-20 lg:pl-0 lg:pr-0 xl:ml-40 xl:mr-40"
+    >
       <!-- hero unit -->
 
-      <section class="lg:grid lg:grid-cols-2 lg:grid-rows-1">
-        <div class="mt-4">
+      <section class="lg:grid lg:grid-cols-2 lg:gap-10 lg:pb-10 xl:mt-10">
+        <div class="mt-4 sm:mt-10 md:mt-10 lg:mt-10">
           <img
-            src="img/kbh-by-night-3.jpg?as=webp&width=1000"
+            src="img/1.jpg?as=webp&width=800"
             alt="Billede af København om natten"
           />
         </div>
-        <div class="mt-4 text-center">
-          <h1 class="">Københavnerbilleder - en guide til hipster foto</h1>
+        <div class="mt-4 text-center lg:mt-7 lg:place-content-center">
+          <h1 class="md:ml-10 md:mr-10">
+            Københavnerbilleder - en guide til hipster foto
+          </h1>
           <h3 class="mt-2">af Sten Simons</h3>
           <div class="mt-2 pb-2">
             <button
-              class="bg-primary text-secondary hover:bg-third hover:text-primary dark:bg-secondary dark:text-primary pl-10 pr-10 pt-2 pb-2"
+              class="bg-third text-primary hover:bg-primary hover:text-secondary dark:bg-third dark:text-primary dark:hover:bg-secondary dark:hover:text-primary pl-10 pr-10 pt-2 pb-2"
             >
               KØB BOGEN
             </button>
@@ -41,37 +45,53 @@
 
       <!-- stamdata  om bogen og info -->
 
-      <section
-        class="pt-10 pb-10 lg:grid lg:grid-cols-2 lg:bg-black lg:text-white"
-      >
-        <div>
-          <ul class="lg:ml-10">
-            <li>
+      <section class="pt-10 pb-10">
+        <div
+          class="sm:grid sm:grid-cols-2 sm:gap-5 md:grid md:grid-cols-2 md:gap-10"
+        >
+          <div
+            class="gap-2 pb-4 sm:text-right md:text-right lg:text-right xl:text-right"
+          >
+            <p class="font-black">
               Titel:<span class="font-light">
-                Københavnerbilleder - en guide til hipster foto
+                Københavnerbilleder - en guide til <br />
+                hipster foto
               </span>
-            </li>
-            <li>Forfatter: <span class="font-light">Sten Simons</span></li>
-            <li>Antal sider: <span class="font-light"> 344</span></li>
-            <li>Forlag: <span class="font-light">Mellem Linjerne</span></li>
-            <li>ISBN: <span class="font-light"> 987-6-987654-32-1</span></li>
-            <li>Pris:<span class="font-light"> 399.-</span></li>
-          </ul>
-        </div>
-        <div class="mt-4 lg:mr-10">
-          <p>
-            Københavnerbilleder er de danske streetfotografers bibel: Det er en
-            fusion mellem et kunstværk og en lærebog. Bogen gennemgår alle
-            væsentlige aspekter af streetfotografering fra grundlæggende teknik
-            til kreative eksperimenter. Alt sammen krydret med masser af
-            inspirerende fotos. God læselyst!
-          </p>
+            </p>
+            <p class="font-black">
+              Forfatter: <span class="font-light">Sten Simons</span>
+            </p>
+            <p class="font-black">
+              Antal sider: <span class="font-light"> 344</span>
+            </p>
+            <p class="font-black">
+              Forlag: <span class="font-light">Mellem Linjerne</span>
+            </p>
+            <p class="font-black">
+              ISBN: <span class="font-light"> 987-6-987654-32-1</span>
+            </p>
+            <p class="font-black">
+              Pris:<span class="font-light"> 399.-</span>
+            </p>
+          </div>
+
+          <div class="lg:mr-10">
+            <p>
+              Københavnerbilleder er de danske streetfotografers bibel: Det er
+              en fusion mellem et kunstværk og en lærebog. Bogen gennemgår alle
+              væsentlige aspekter af streetfotografering fra grundlæggende
+              teknik til kreative eksperimenter. Alt sammen krydret med masser
+              af inspirerende fotos. God læselyst!
+            </p>
+          </div>
         </div>
       </section>
 
       <!-- 3 billeder -->
 
-      <section class="space-y-4 lg:grid lg:grid-cols-3 lg:gap-2">
+      <section
+        class="gap-2 space-y-4 md:grid md:grid-cols-3 md:gap-4 md:space-y-0 lg:grid lg:grid-cols-3 lg:gap-4"
+      >
         <img
           src="img/kobenhavnerbilleder-sten-simons.jpg?as=webp&width=800"
           alt="Billede af en bog"
@@ -91,7 +111,9 @@
 
       <!-- intro til kapitlerne -->
 
-      <section class="lg:grid lg:grid-cols-2 lg:gap-10">
+      <section
+        class="md:grid md:grid-cols-2 md:gap-10 lg:grid lg:grid-cols-2 lg:gap-10"
+      >
         <div>
           <div class="pb-5">
             <h3>Kapitel 1: Intro til street foto</h3>
@@ -105,7 +127,7 @@
           </div>
 
           <div class="pb-5">
-            <h3>Kapitel 2 - Om at skyde street</h3>
+            <h3>Kapitel 2: Om at skyde street</h3>
             <p>
               Vil du skyde street? Så er der ikke nogen vej udenom: Du skal ud
               på gaderne og prøve det! I dette kapitel får du en teknisk
@@ -116,7 +138,7 @@
           </div>
 
           <div class="pb-5">
-            <h3>Kapitel 3 - Om at finde det rette motiv</h3>
+            <h3>Kapitel 3: Om at finde det rette motiv</h3>
             <p>
               Indimellem er man heldig, andre gange kommer man hjem helt uden
               gode motiver. Med et par tips og tricks til at finde de rette
@@ -125,7 +147,7 @@
           </div>
 
           <div class="pb-5">
-            <h3>Kapitel 4 - Digital street foto</h3>
+            <h3>Kapitel 4: Digital street foto</h3>
             <p>
               De fleste af os skyder oftest digitalt fordi det er billigere og
               nemmere. Og nogen teknikker og fremgangsmåder egner sig kun til
@@ -137,7 +159,7 @@
 
         <div>
           <div class="pb-5">
-            <h3>Kapitel 5 - Analog street foto</h3>
+            <h3>Kapitel 5: Analog street foto</h3>
             <p>
               Analog er sejt fordi det er mere “ægte,” dyrere og mere besværligt
               end digital. Det signalerer entusiasme. Nogle teknikker og
@@ -147,7 +169,7 @@
           </div>
 
           <div class="pb-5">
-            <h3>Kapitel 6 - Om at skyde sort/hvid</h3>
+            <h3>Kapitel 6: Om at skyde sort/hvid</h3>
             <p>
               Alle street-fotografer skyder sort/hvid nu og da. Nogen altid.
               Hvorfor? Hvad er der specielt ved sort/hvid fotografering, og hvad
@@ -157,7 +179,7 @@
           </div>
 
           <div class="pb-5">
-            <h3>Kapitel 7 - Kreative teknikker</h3>
+            <h3>Kapitel 7: Kreative teknikker</h3>
             <p>
               Dobbelteksponeringer, ICM (intentional camera moves), smadrede
               objektiver, gamle filmruller og alle mulige andre, spændende
@@ -168,7 +190,7 @@
           </div>
 
           <div class="pb-5">
-            <h3>Kapitel 8 - Kom helt tæt på!</h3>
+            <h3>Kapitel 8: Kom helt tæt på!</h3>
             <p>
               Street foto handler om at fotografere livet på gaden - men tør du
               at gå helt tæt på fremmede mennesker og knipse løs? Du kan lige så
@@ -192,35 +214,38 @@
           <!-- personer siger dette - overskrift -->
           <h2 class="">Anmeldelser af bogen</h2>
 
-          <div>
-            <h3 class="pt-6">5 af 6 stjerner</h3>
-            <p>
-              "Københavnerbilleder er en grundig introduktion til at skyde
-              billeder med retro-kant. Hvad enten du er har arbejdet med foto
-              siden 135-filmen kom på markedet, du kun har skudt digitalt eller
-              er helt nybegynder, er der masser af tips og tricks i bogen."
-            </p>
-            <h4 class="pt-2 pb-6">- Hanne Hovgaard, Berlingeren</h4>
-          </div>
+          <div class="lg:grid lg:grid-cols-3 lg:gap-4 lg:pt-8">
+            <div>
+              <h3 class="pt-6 lg:pt-0">5 af 6 stjerner</h3>
+              <p>
+                "Københavnerbilleder er en grundig introduktion til at skyde
+                billeder med retro-kant. Hvad enten du er har arbejdet med foto
+                siden 135-filmen kom på markedet, du kun har skudt digitalt
+                eller er helt nybegynder, er der masser af tips og tricks i
+                bogen."
+              </p>
+              <h4 class="pt-2 pb-6">- Hanne Hovgaard, Berlingeren</h4>
+            </div>
 
-          <div>
-            <h3>4 af 5 stjerner</h3>
-            <p>
-              "Teksten er underholdende, og billederne er sku’ flotte. Hvad mere
-              skal man sige om en fotobog?"
-            </p>
-            <h4 class="pt-2 pb-6">- Kim Kloggaard, Fotojournalen.dk</h4>
-          </div>
+            <div>
+              <h3>4 af 5 stjerner</h3>
+              <p>
+                "Teksten er underholdende, og billederne er sku’ flotte. Hvad
+                mere skal man sige om en fotobog?"
+              </p>
+              <h4 class="pt-2 pb-6">- Kim Kloggaard, Fotojournalen.dk</h4>
+            </div>
 
-          <div>
-            <h3>6 af 6 stjerner</h3>
-            <p>
-              "Sten Simons kan det der - og han bliver bedre og bedre. Stens
-              tredje fotobog er klart den bedste - her er han for alvor i sit
-              rette element, meget bedre end “studiefotografering som
-              begyndere.” Tillykke - godt arbejde."
-            </p>
-            <h4 class="pt-2 pb-6">- Volmer Hansen, Lukkertiden.dk</h4>
+            <div>
+              <h3>6 af 6 stjerner</h3>
+              <p>
+                "Sten Simons kan det der - og han bliver bedre og bedre. Stens
+                tredje fotobog er klart den bedste - her er han for alvor i sit
+                rette element, meget bedre end “studiefotografering som
+                begyndere.” Tillykke - godt arbejde."
+              </p>
+              <h4 class="pt-2 pb-6">- Volmer Hansen, Lukkertiden.dk</h4>
+            </div>
           </div>
         </div>
       </section>
@@ -230,7 +255,7 @@
       <!-- galleri -->
 
       <section
-        class="space-y-4 pb-10 md:grid md:grid-cols-2 md:grid-rows-1 md:gap-1 lg:grid lg:grid-cols-2 lg:grid-rows-1 lg:gap-1"
+        class="space-y-4 pb-10 md:grid md:grid-cols-2 md:gap-4 md:space-y-0 lg:grid lg:grid-cols-2 lg:gap-4 xl:grid xl:grid-cols-3 xl:gap-4"
       >
         <img src="img/1.jpg?as=webp&width=800" alt="Billede" />
 
@@ -257,7 +282,9 @@
 
       <!-- forfatteren - billede og biograftekst -->
 
-      <section class="lg:grid lg:grid-cols-2 lg:grid-rows-1">
+      <section
+        class="md:grid md:grid-cols-2 md:gap-8 lg:grid lg:grid-cols-2 lg:grid-rows-1"
+      >
         <p class="mb-6">
           Sten Simons har en lang foto-karriere bag sig. Det hele startede i
           00’erne, da han gik rundt i Pisserenden for at fotografere ungdommens
@@ -270,7 +297,7 @@
           visuel odysse, og lærebogen Fotografering for evnesvage.
         </p>
         <img
-          class="lg:h-[640px]"
+          class=""
           src="img/sten_simons.jpg?as=webp&width=800"
           alt="Billede"
         />
@@ -278,10 +305,12 @@
 
       <!-- KØB BOGEN-->
       <div class="pt-10">
-        <h3 class="pb-5 text-center">Køb Københavnerbilleder nu!</h3>
+        <h3 class="pb-5 text-center lg:text-3xl">
+          Køb Københavnerbilleder nu!
+        </h3>
         <div class="pb-10 text-center">
           <button
-            class="bg-primary text-secondary hover:bg-third hover:text-primary dark:bg-secondary dark:text-primary pl-10 pr-10 pt-2 pb-2"
+            class="bg-third text-primary hover:bg-primary hover:text-secondary dark:bg-third dark:text-primary dark:hover:bg-secondary dark:hover:text-primary pl-10 pr-10 pt-2 pb-2"
           >
             KØB BOGEN
           </button>
