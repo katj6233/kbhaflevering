@@ -14,11 +14,26 @@
     <link rel="stylesheet" href="tailwind.css" />
   </head>
 
-  <body class="dark:bg-fifth dark:text-secondary">
+  <body class="dark:bg-fifth dark:text-secondary bg-secondary text-primary">
     <!-- Add prose -->
     <main
       class="pl-4 pr-4 sm:pr-10 sm:pl-10 md:pl-12 md:pr-12 lg:ml-20 lg:mr-20 lg:pl-0 lg:pr-0 xl:ml-40 xl:mr-40"
     >
+      <header>
+        <div></div>
+        <button
+          id="darkmode"
+          class="bg-third dark:bg-third text-primary dark:text-primary"
+        >
+          dark
+        </button>
+        <button
+          id="lightmode"
+          class="bg-third dark:bg-third text-primary dark:text-primary"
+        >
+          light
+        </button>
+      </header>
       <!-- hero unit -->
 
       <section class="lg:grid lg:grid-cols-2 lg:gap-10 lg:pb-10 xl:mt-10">
